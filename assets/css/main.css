@@ -2682,6 +2682,10 @@ input, select, textarea {
 				font-size: 1.5em;
 			}
 
+			header.major h2:after {
+				height: 3.6;
+			}
+
 			header.major p {
 				font-size: 1em;
 				letter-spacing: 0;
@@ -3052,7 +3056,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlight .image {
-				padding: 0.25em;
+				padding: 0.35em;
 			}
 
 				.spotlight .image img {
