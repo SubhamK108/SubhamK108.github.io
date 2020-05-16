@@ -2812,12 +2812,12 @@ input, select, textarea {
 
 		.features li {
 			width: calc(17% - 2em);
-			margin-left: 2em;
+			/* margin-left: 2em; */
 			margin-top: 2em;
 			padding: 0;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4), .features li:nth-child(5) {
+			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4), .features li:nth-child(5), .features li:nth-child(6), .features li:nth-child(7) {
 				margin-top: 0;
 			}
 
