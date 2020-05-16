@@ -2638,6 +2638,7 @@ input, select, textarea {
 
 		header.major h2 {
 			font-size: 2em;
+			font-weight: bold;
 		}
 
 			header.major h2:after {
