@@ -2812,11 +2812,9 @@ input, select, textarea {
 
 		.features li {
 			/* width: calc(17% - 2em); */
-			/* margin-left: 2em; */
-			/* margin-top: 2em; */
 			margin: 0 1em 0 0;
 			padding-left: 1em;
-			padding-bottom: 2em;
+			padding-top: 1.5em;
 		}
 
 			/* .features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4), .features li:nth-child(5), .features li:nth-child(6), .features li:nth-child(7) {
