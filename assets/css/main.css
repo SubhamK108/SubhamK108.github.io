@@ -2814,8 +2814,8 @@ input, select, textarea {
 			/* width: calc(17% - 2em); */
 			/* margin-left: 2em; */
 			/* margin-top: 2em; */
-			margin: 0 1.5em 0 0;
-			padding-left: 1.5em;
+			margin: 0 1em 0 0;
+			padding-left: 1em;
 			padding-bottom: 2em;
 		}
 
