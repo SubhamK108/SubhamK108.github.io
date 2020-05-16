@@ -2804,26 +2804,28 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		/* width: calc(100% + 2em); */
+		margin: 0 0 0 0;
 		padding: 0;
 		list-style: none;
 	}
 
 		.features li {
-			width: calc(17% - 2em);
+			/* width: calc(17% - 2em); */
 			/* margin-left: 2em; */
-			margin-top: 2em;
-			padding: 0;
+			/* margin-top: 2em; */
+			margin: 0 2.5em 0 0;
+			padding-left: 3em;
+			padding-bottom: 2em;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4), .features li:nth-child(5), .features li:nth-child(6), .features li:nth-child(7) {
+			/* .features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4), .features li:nth-child(5), .features li:nth-child(6), .features li:nth-child(7) {
 				margin-top: 0;
 			}
 
 			.features li > :last-child {
 				margin-bottom: 0;
-			}
+			} */
 
 		/* @media screen and (max-width: 980px) {
 
