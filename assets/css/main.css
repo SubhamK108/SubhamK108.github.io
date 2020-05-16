@@ -2813,8 +2813,7 @@ input, select, textarea {
 		.features li {
 			width: calc(17% - 2em);
 			margin-left: 2em;
-			/* margin-top: 3em; */
-			margin-bottom: 2em;
+			margin-top: 2em;
 			padding: 0;
 		}
 
