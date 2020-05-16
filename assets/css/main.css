@@ -2811,21 +2811,20 @@ input, select, textarea {
 	}
 
 		.features li {
-			/* width: calc(33.33333% - 2em); */
+			width: calc(17% - 2em);
 			margin-left: 2em;
-			/* margin-top: 2em; */
-			margin-bottom: 1.5em;
+			/* margin-top: 3em; */
+			margin-bottom: 2em;
 			padding: 0;
-			padding-right: 2.5em;
 		}
 
-			/* .features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
+			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4), .features li:nth-child(5) {
 				margin-top: 0;
 			}
 
 			.features li > :last-child {
 				margin-bottom: 0;
-			} */
+			}
 
 		/* @media screen and (max-width: 980px) {
 
