@@ -3001,6 +3001,7 @@ input, select, textarea {
 			/* margin-left: 4em; */
 			padding: 0.55em;
 			border-radius: 100%;
+			margin-bottom: 1.5em;
 			/* border: 6px solid; */
 		}
 
@@ -3047,7 +3048,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					margin-left: 0;
-					margin-bottom: 2em;
+					margin-bottom: 1.5em;
 				}
 
 		}
