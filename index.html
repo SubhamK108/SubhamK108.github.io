@@ -14,7 +14,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 
-	<body class="is-preload">
+	<body class="is-preload" onload="getTheme()">
 
 		<!-- Wrapper -->
 		<div id="wrapper">
@@ -23,6 +23,8 @@
 			<header id="header" class="alt">
 				<h1>Hi, I'm Subham</h1>
 			</header>
+
+			<a id="themeSwitch" onclick="toggleTheme()" class="icon solid fas fa-moon" style="margin-bottom: 2em; margin-left: 50%;"></a>
 				
 				
 			<!-- Main -->
@@ -184,6 +186,7 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/themeChanger.js"></script>
 
 	</body>
 </html>
