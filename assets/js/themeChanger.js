@@ -1,5 +1,5 @@
 
-function getTheme() {
+function GetTheme() {
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.getElementById("themeSwitch").className = "icon solid fas fa-sun";
     } else {
@@ -7,7 +7,7 @@ function getTheme() {
     }
 }
 
-function toggleTheme() {
+function ToggleTheme() {
     var darkSwitch = document.getElementById("themeSwitch");
 
     var bodyElement = document.body;
