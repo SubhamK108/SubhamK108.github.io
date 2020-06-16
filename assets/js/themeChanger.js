@@ -53,6 +53,5 @@ function ToggleTheme() {
             document.getElementById("content").className = "main-dark";
         }
         themeButton.className = "icon solid fas fa-sun";
-
     }
 }
