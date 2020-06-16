@@ -8,12 +8,14 @@ function GetTheme() {
 }
 
 function ToggleTheme() {
-    var darkSwitch = document.getElementById("themeSwitch");
+    var themeButton = document.getElementById("themeSwitch");
 
     var bodyElement = document.body;
-    var sec = document.getElementsByClassName("special");
+    if (document.getElementsByClassName("special")) {
+        var sec = document.getElementsByClassName("special");
+    }
 
-    if (darkSwitch.className == "icon solid fas fa-sun") {
+    if (themeButton.className == "icon solid fas fa-sun") {
         bodyElement.className = "light";
 
         if (document.getElementById("main")) {
@@ -30,10 +32,10 @@ function ToggleTheme() {
         if (document.getElementById("content")) {
             document.getElementById("content").className = "main-light";
         }
-        darkSwitch.className = "icon solid fas fa-moon";
+        themeButton.className = "icon solid fas fa-moon";
     }
     
-    else if (darkSwitch.className == "icon solid fas fa-moon") {
+    else if (themeButton.className == "icon solid fas fa-moon") {
         bodyElement.className = "dark";
         
         if (document.getElementById("main")) {
@@ -50,7 +52,7 @@ function ToggleTheme() {
         if (document.getElementById("content")) {
             document.getElementById("content").className = "main-dark";
         }
-        darkSwitch.className = "icon solid fas fa-sun";
+        themeButton.className = "icon solid fas fa-sun";
 
     }
 }
