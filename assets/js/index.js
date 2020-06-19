@@ -3,7 +3,7 @@
 
 // if ('serviceWorker' in navigator) {
 //     navigator.serviceWorker
-//         .register('/sw.js')
+//         .register('/serviceWorker.js')
 //         .then(function () { console.log('Service Worker Registered'); });
 // }
 
